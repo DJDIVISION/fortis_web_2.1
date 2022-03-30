@@ -24,10 +24,10 @@ const Title = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 70px;
+    line-height: 60px;
     h1{
         color: white;
-        font-size: 64px;
+        font-size: 58px;
         font-weight: 400;
         transform: translate(50%, 0);
     }
@@ -38,9 +38,9 @@ const Description = styled.div`
     height: 35%;
     h1{
         color: #666666;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 25px;
-        transform: translate(40%, 10%);
+        transform: translate(39%, 15%);
     }
 `;
 
@@ -51,7 +51,7 @@ const ButtonWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform: translate(35%, 0);
+    transform: translate(35%, 20%);
 `;
 
 const TopButton = styled(motion.div)`

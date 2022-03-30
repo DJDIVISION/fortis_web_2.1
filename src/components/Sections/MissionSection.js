@@ -29,7 +29,7 @@ const Text = styled.div`
     height: 50%;
     h1{
         color: white;
-        font-size: 38px;
+        font-size: 32px;
         font-weight: 400;
         transform: translate(0, -10%);
     }

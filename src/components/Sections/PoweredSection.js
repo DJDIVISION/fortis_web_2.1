@@ -27,8 +27,9 @@ const Title = styled.div`
     line-height: 70px;
     h1{
         color: white;
-        font-size: 64px;
+        font-size: 58px;
         font-weight: 400;
+        transform: translate(0, -70%);
         
     }
 `;
@@ -40,7 +41,7 @@ const Description = styled.div`
         color: #666666;
         font-size: 20px;
         line-height: 25px;
-        transform: translate(8%, 0);
+        transform: translate(7%, -60%);
     }
 `;
 
@@ -51,7 +52,7 @@ const ButtonWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform: translate(-5%, 0);
+    transform: translate(-5%, -30%);
     
 `;
 

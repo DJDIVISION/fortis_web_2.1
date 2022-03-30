@@ -35,7 +35,7 @@ const Text = styled.div`
         color: white;
         font-weight: 400;
         font-size: 64px;
-        line-height: 70px;
+        line-height: 60px;
 
     }
 `;

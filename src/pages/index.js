@@ -10,17 +10,17 @@ import BG from "../images/home/HomeBG.png";
 
 
 const Section = styled.div`
-    width: 100%;
-    height: 4400px;
+    width: 100vw;
+    height: 4050px;
     background: url(${BG}), black;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 `;
 
 const Box = styled.div`
     width: 50%;
-    height: 60vh;
-    transform: translate(50%, 60%);
+    height: 65vh;
+    transform: translate(50%, 45%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,37 +29,39 @@ const Box = styled.div`
 
 const TopTitle = styled.div`
     width: 100%;
-    height: 15%;
+    height: 12.5%;
     font-size: 72px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translate(-5%, -5%);
+    transform: translate(-20%, -30%);
     text-shadow: black -1px 2px, black -2px 2px, black -3px 3px;
 `;
 
 const BottomTitle = styled.div`
     width: 100%;
-    height: 15%;
+    height: 12.5%;
     font-size: 72px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translate(10%, 0);
+    transform: translate(5%, 10%);
     text-shadow: black -1px 2px, black -2px 2px, black -3px 3px;
 `;
 
 const Description = styled.div`
     width: 50%;
-    height: 40%;
+    height: 45%;
     color: #666666;
     font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
 `;
+
+
 
 const TopButton = styled(motion.div)`
     width: 250px;
@@ -98,6 +100,15 @@ const BottomButton = styled(motion.div)`
     cursor: pointer;
 `;
 
+const ButtonHolder = styled.div`
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+`;
+
 const Empty = styled.div`
     width: 100%;
     height: 90vh;
@@ -121,8 +132,10 @@ const Home = () => {
             <TopTitle>The coin of</TopTitle>
                 <BottomTitle>the people</BottomTitle>
                 <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet a volutpat donec nisl, in turpis ridiculus tristique. Sed magna massa, cum scelerisque.</Description>
+                <ButtonHolder>
                 <motion.div whileHover={{scale: 1.05}} whileTap={{scale: 0.95}}><TopButton>JOIN THE MOVEMENT</TopButton></motion.div>
                 <motion.div whileHover={{scale: 1.05}} whileTap={{scale: 0.95}}><BottomButton>LEARN MORE</BottomButton></motion.div>
+                </ButtonHolder>
             </Box>
             <Empty />
             <MissionSection />
