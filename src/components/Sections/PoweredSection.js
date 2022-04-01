@@ -52,13 +52,13 @@ const ButtonWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform: translate(-5%, -30%);
+    transform: translate(-7.5%, -30%);
     
 `;
 
 const TopButton = styled(motion.div)`
-    width: 250px;
-    height: 60px;
+    width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -69,13 +69,13 @@ const TopButton = styled(motion.div)`
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: black -1px 2px, black -2px 2px;
     cursor: pointer;
+    text-shadow: black -1px 2px, black -2px 2px;
 `;
 
 const BottomButton = styled(motion.div)`
-    width: 250px;
-    height: 60px;
+     width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -89,8 +89,8 @@ const BottomButton = styled(motion.div)`
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: black -1px 2px, black -2px 2px;
     cursor: pointer;
+    text-shadow: black -1px 2px, black -2px 2px;
 `;
 
 

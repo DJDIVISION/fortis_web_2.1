@@ -9,12 +9,15 @@ import AppSection from "../components/Sections/AppSection";
 import ElementsSection from "../components/Sections/ElementsSection";
 import GatewaySection from "../components/Sections/GatewaySection";
 import FeaturesSection from "../components/Sections/FeaturesSection";
+import IdeasSection from "../components/Sections/IdeasSection";
+import ShapeSection from "../components/Sections/ShapeSection";
+import RoadmapSection from "../components/Sections/RoadmapSection";
 
 const Section = styled.div`
     width: 100vw;
-    height: 9000px;
+    height: 8200px;
     background: url(${Back}), black;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -51,8 +54,8 @@ const ButtonWrapper = styled.div`
 `;
 
 const TopButton = styled(motion.div)`
-    width: 250px;
-    height: 65px;
+    width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -68,8 +71,8 @@ const TopButton = styled(motion.div)`
 `;
 
 const BottomButton = styled(motion.div)`
-    width: 250px;
-    height: 65px;
+     width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -94,9 +97,9 @@ const Title = styled.div`
     align-items: center;
     h1{
         color: white;
-        font-size: 88px;
+        font-size: 68px;
         font-weight: 400;
-        transform: translate(40%, 0);
+        transform: translate(40%, 30%);
     }
 `;
 
@@ -107,10 +110,10 @@ const Description = styled.div`
     align-items: center;
     h1{
         color: white;
-        font-size: 38px;
+        font-size: 32px;
         font-weight: 400; 
-        transform: translate(40%, -10%);
-        line-height: 120%;
+        transform: translate(34%, 10%);
+        line-height: 130%;
     }
 `;
 
@@ -133,6 +136,13 @@ const FourthEmpty = styled.div`
     width: 100%;
     height: 40vh;
 `;
+
+const FifthEmpty = styled.div`
+    width: 100%;
+    height: 25vh;
+`;
+
+
 
 const Roadmap = () => {
     return(
@@ -161,6 +171,12 @@ const Roadmap = () => {
             <GatewaySection />
             <FourthEmpty />
             <FeaturesSection />
+            <FifthEmpty />
+            <IdeasSection />
+            <FifthEmpty />
+            <ShapeSection />
+            <FifthEmpty />
+            <RoadmapSection />
         </Section>
     )
 }

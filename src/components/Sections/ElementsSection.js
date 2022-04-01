@@ -48,6 +48,11 @@ const Box = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: filter 300ms;
+    &:hover{
+        filter: brightness(1.2);
+        background: #484a4d;
+    }
     
 `;
 
@@ -72,15 +77,29 @@ const BoxTitle = styled.div`
     }
 `;
 
+const BoxDemo = styled.div`
+    width: 80%;
+    height: 12.5%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    h1{
+        font-size: 20px;
+        color: white;
+        font-weight: 400;
+    }
+`;
+
 const BoxDescription = styled.div`
     width: 80%;
     height: 50%;
     display: flex;
     align-items: center;
     h1{
-        font-size: 16px;
+        font-size: 14px;
         color: whitesmoke;
         font-weight: 400;
+        line-height: 20px;
     }
 `;
 
@@ -95,31 +114,31 @@ const ElementsSection = () => {
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Fiat On-Ramp</h1></BoxTitle>
                     <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
-                    <BoxTitle><img src={Demo} alt="demo" /></BoxTitle>
+                    <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Fort'nomics</h1></BoxTitle>
                     <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
-                    <BoxTitle><img src={Demo} alt="demo" /></BoxTitle>
+                    <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Debit Cards</h1></BoxTitle>
                     <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
-                    <BoxTitle><img src={Demo} alt="demo" /></BoxTitle>
+                    <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Lending Platform</h1></BoxTitle>
                     <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
-                    <BoxTitle><img src={Demo} alt="demo" /></BoxTitle>
+                    <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>App Explorer</h1></BoxTitle>
                     <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
-                    <BoxTitle><img src={Demo} alt="demo" /></BoxTitle>
+                    <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
             </Grid>
         </Section>

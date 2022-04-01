@@ -40,14 +40,14 @@ const ColumnRight = styled.div`
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 250px;
+    top: 180px;
     right: 100px;
     
 `;
 
 const TopButton = styled(motion.div)`
-    width: 250px;
-    height: 65px;
+    width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -63,8 +63,8 @@ const TopButton = styled(motion.div)`
 `;
 
 const BottomButton = styled(motion.div)`
-    width: 250px;
-    height: 65px;
+    width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -96,12 +96,11 @@ const Line = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-style: normal;
-    font-weight: 500;
-    font-family: 'Satoshi';
+    transform: translate(-5%, -30%);
     h1{
         color: white;
-        font-size: 84px;
+        font-size: 68px;
+        font-weight: 500;
     }
 `;
 
@@ -111,12 +110,11 @@ const BottomLine = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 400;
-    font-family: 'Satoshi';
     h1{
         color: white;
-        font-size: 84px;
-        transform: translate(20%, 0);
+        font-size: 68px;
+        font-weight: 500;
+        transform: translate(5%, -30%);
     }
 `;
 
@@ -132,10 +130,10 @@ const Description = styled.div`
     justify-content: center;
     h1{
         color: #666666;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 25px;
         width: 30%;
-        transform: translate(0%, -15%);
+        transform: translate(-20%, -50%);
     }
 `;
 

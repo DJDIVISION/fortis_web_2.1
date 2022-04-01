@@ -26,7 +26,7 @@ const ColumnTitle = styled.div`
 
 const Text = styled.div`
     width: 80%;
-    height: 50%;
+    height: 45%;
     h1{
         color: white;
         font-size: 32px;
@@ -37,7 +37,7 @@ const Text = styled.div`
 
 const ButtonHolder = styled.div`
     width: 40%;
-    height: 30%;
+    height: 35%;
     display: flex;
     flex-direction: column;
     
@@ -45,8 +45,8 @@ const ButtonHolder = styled.div`
 `;
 
 const TopButton = styled(motion.div)`
-    width: 250px;
-    height: 60px;
+    width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -57,13 +57,13 @@ const TopButton = styled(motion.div)`
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: black -1px 2px, black -2px 2px;
     cursor: pointer;
+    text-shadow: black -1px 2px, black -2px 2px;
 `;
 
 const BottomButton = styled(motion.div)`
-    width: 250px;
-    height: 60px;
+     width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -77,8 +77,8 @@ const BottomButton = styled(motion.div)`
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: black -1px 2px, black -2px 2px;
     cursor: pointer;
+    text-shadow: black -1px 2px, black -2px 2px;
 `;
 
 

@@ -25,15 +25,15 @@ const Title = styled.div`
 `;
 
 const Text = styled.div`
-    width: 100%;
+    width: 80%;
     height: 50%;
     display: flex;
     align-items: center;
     h1{
-        font-size: 68px;
+        font-size: 56px;
         color: white;
         font-weight: 400;
-        line-height: 70px;
+        line-height: 60px;
     }
 `;
 
@@ -42,6 +42,8 @@ const Description = styled.div`
     height: 35%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    transform: translate(0, 15%);
     h1{
         font-size: 20px;
         color: white;

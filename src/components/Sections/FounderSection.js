@@ -14,7 +14,7 @@ const Section = styled.div`
 
 const ColumnLeft = styled.div`
     width: 40%;
-    height: 80%;
+    height: 90%;
     float: left;
     
 `;
@@ -29,7 +29,7 @@ const ColumnTitle = styled.div`
     width: 100%;
     height: 10%;
     img{
-        transform: scale(1.2) translate(15%, 0);
+        transform: scale(1.2) translate(25%, 60%);
 
     }
 `;
@@ -41,9 +41,10 @@ const Title = styled.div`
     align-items: center;
     
     h1{
-        font-size: 68px;
+        font-size: 58px;
         color: white;
-        line-height: 75px;
+        line-height: 60px;
+        transform: translate(2.5%, 0%);
     }
 `;
 
@@ -54,7 +55,7 @@ const Description = styled.div`
     align-items: center;
     transform: translate(5%, 0);
     h1{
-        font-size: 20px;
+        font-size: 18px;
         color: white;
         font-style: normal;
         font-weight: 400;
@@ -64,12 +65,12 @@ const Description = styled.div`
 const ButtonWrapper = styled.div`
     width: 100%;
     height: 15%;
-    transform: translate(0%, 15%);
+    transform: translate(2.5%, 25%);
 `;
 
 const TopButton = styled(motion.div)`
-    width: 250px;
-    height: 60px;
+    width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;

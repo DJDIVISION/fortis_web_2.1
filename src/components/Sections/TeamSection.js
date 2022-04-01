@@ -33,8 +33,8 @@ const Text = styled.div`
     justify-content: center;
     h1{
         color: white;
-        font-size: 38px;
-        line-height: 130%;
+        font-size: 32px;
+        line-height: 120%;
         font-style: normal;
         font-weight: 400;
     }

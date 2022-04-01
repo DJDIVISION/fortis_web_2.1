@@ -5,6 +5,9 @@ import Products from "../../svg/products.svg";
 import Box1 from "../../images/roadmap/box1.png";
 import Box2 from "../../images/roadmap/box2.png";
 import Box3 from "../../images/roadmap/box3.png";
+import IconApp from "../../images/roadmap/IconApp.png";
+import IconRoad from "../../images/roadmap/iconRoad.png";
+import IconLabs from "../../images/roadmap/IconLabs.png";
 
 
 const Section = styled.div`
@@ -42,7 +45,7 @@ const ColumnLeft = styled.div`
     
     h1{
         color: white;
-        font-size: 38px;
+        font-size: 32px;
         font-weight: 400;
         width: 70%;
     }
@@ -61,8 +64,8 @@ const ColumnRight = styled.div`
 
 
 const BottomButton = styled(motion.div)`
-    width: 250px;
-    height: 60px;
+      width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -71,14 +74,13 @@ const BottomButton = styled(motion.div)`
     backdrop-filter: blur(22px);
     border-radius: 100px;
     margin: 10px 0;
-    margin-left: auto;
     border-radius: 30px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: black -1px 2px, black -2px 2px;
     cursor: pointer;
+    text-shadow: black -1px 2px, black -2px 2px;
 `;
 
 const BottomGrid = styled.div`
@@ -100,14 +102,62 @@ const Box = styled.div`
     background-size: cover;
     background-position: center;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: filter 300ms;
+    
 
-    &::before{
+    /* &::before{
        content: "";
        width: 100%;
        height: 3px;
        background: white;
        transition: width 0.3s ease;
        transform: translate(0, 100%);
+    } */
+`;
+
+const Empty = styled.div`
+    width: 100%;
+    height: 50%;
+    img{
+        display: block;
+        width: 25%;
+       margin-left: auto; 
+       margin-right: auto;
+       margin-top: 110px;
+    }
+`;
+
+
+
+const GridTitle = styled.div`
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+    }
+`;
+
+const GridDesc = styled.div`
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h1{
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
     }
 `;
 
@@ -128,9 +178,21 @@ const ProductsSection = () => {
                 </Wrapper>
             </TopGrid>
             <BottomGrid>
-                <Box style={{backgroundImage: `url(${Box1})`}}></Box>
-                <Box style={{backgroundImage: `url(${Box2})`}}></Box>
-                <Box style={{backgroundImage: `url(${Box3})`}}></Box>
+                <Box style={{backgroundImage: `url(${Box1})`}}>
+                    <Empty><img src={IconApp} alt="icon1" /></Empty>
+                    <GridTitle><h1>Fortis Roadmap</h1></GridTitle>
+                    <GridDesc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h1></GridDesc>
+                </Box>
+                <Box style={{backgroundImage: `url(${Box2})`}}>
+                    <Empty><img src={IconRoad} alt="icon2" /></Empty>
+                    <GridTitle><h1>Fortis Roadmap</h1></GridTitle>
+                    <GridDesc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h1></GridDesc>
+                </Box>
+                <Box style={{backgroundImage: `url(${Box3})`}}>
+                    <Empty><img src={IconLabs} alt="icon3" /></Empty>
+                    <GridTitle><h1>Fortis Labs</h1></GridTitle>
+                    <GridDesc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h1></GridDesc>
+                </Box>
             </BottomGrid>
         </Section>
     )

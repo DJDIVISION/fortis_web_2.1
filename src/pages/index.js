@@ -53,8 +53,8 @@ const BottomTitle = styled.div`
 
 const Description = styled.div`
     width: 50%;
-    height: 45%;
-    color: #666666;
+    height: 40%;
+    color: white;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -64,8 +64,8 @@ const Description = styled.div`
 
 
 const TopButton = styled(motion.div)`
-    width: 250px;
-    height: 60px;
+    width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -76,13 +76,13 @@ const TopButton = styled(motion.div)`
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: black -1px 2px, black -2px 2px;
     cursor: pointer;
+    text-shadow: black -1px 2px, black -2px 2px;
 `;
 
 const BottomButton = styled(motion.div)`
-    width: 250px;
-    height: 60px;
+     width: 225px;
+    height: 55px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -96,16 +96,16 @@ const BottomButton = styled(motion.div)`
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: black -1px 2px, black -2px 2px;
     cursor: pointer;
+    text-shadow: black -1px 2px, black -2px 2px;
 `;
 
 const ButtonHolder = styled.div`
     width: 40%;
-    height: 30%;
+    height: 35%;
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
     justify-content: center;
 `;
 
