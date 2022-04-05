@@ -1,11 +1,17 @@
 import styled from "styled-components";
 import NavBar from "../components/NavBar";
+import SmartNavBar from "../components/NavBar/SmartNavBar";
 import {motion} from "framer-motion";
 import MissionSection from "../components/Sections/MissionSection";
 import EcosystemSection from "../components/Sections/EcosystemSection";
 import PoweredSection from "../components/Sections/PoweredSection";
+import HeroSmart from "../components/Sections/HeroSmart";
+import MissionSmart from "../components/Sections/MissionSmart";
+import EcosystemSmart from "../components/Sections/EcosystemSmart";
+import PoweredSmart from "../components/Sections/PoweredSmart";
 
 import BG from "../images/home/HomeBG.png";
+import SmartBG from "../images/home/SmartBG.png";
 
 
 
@@ -15,6 +21,22 @@ const Section = styled.div`
     background: url(${BG}), black;
     background-size: contain;
     background-repeat: no-repeat;
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+
+`;
+
+const SmartSection = styled.div`
+    width: 100vw;
+    height: 4900px;
+    background: url(${SmartBG}), black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    @media screen and (min-width: 768px){
+        display: none;
+    }
+    
 `;
 
 const Box = styled.div`
@@ -124,8 +146,24 @@ const ThirdEmpty = styled.div`
     height: 65vh;
 `;
 
+const FourthEmpty = styled.div`
+    width: 100%;
+    height: 30vh;
+`;
+
+const FifthEmpty = styled.div`
+    width: 100%;
+    height: 60vh;
+`;
+
+const SixthEmpty = styled.div`
+    width: 100%;
+    height: 70vh;
+`;
+
 const Home = () => {
     return(
+        <>
         <Section>
             <NavBar />
             <Box>
@@ -144,6 +182,17 @@ const Home = () => {
             <ThirdEmpty />
             <PoweredSection />
         </Section>
+        <SmartSection>
+            <SmartNavBar /> 
+            <HeroSmart />
+            <FourthEmpty />
+            <MissionSmart />
+            <FifthEmpty />
+            <EcosystemSmart />
+            <SixthEmpty />
+            <PoweredSmart />
+        </SmartSection>
+        </>
     )
 }
 
