@@ -11,6 +11,7 @@ const Section = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid white;
 `;
 
 const Logo = styled.div`
@@ -32,6 +33,7 @@ const Title = styled.div`
     font-size: 28px;
     color: white;
     font-weight: 400;
+    border: 1px solid white;
 `;
 
 const FirstRow = styled.div`
@@ -41,7 +43,8 @@ const FirstRow = styled.div`
     font-size: 20px;
     color: white;
     font-weight: 400; 
-    margin-top: 10px;
+    
+    border: 1px solid white;
 `;
 
 const SecondRow = styled.div`
@@ -51,12 +54,14 @@ const SecondRow = styled.div`
     font-size: 16px;
     color: white;
     font-weight: 200;
-    margin-top: 10px;
+    
+    border: 1px solid white;
 `;
 
 const Empty = styled.div`
     width: 100%;
     height: 355px;
+    border: 1px solid white;
 `;
 
 const Buttons = styled.div`
@@ -66,6 +71,7 @@ const Buttons = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 1px solid white;
 `;
 
 
