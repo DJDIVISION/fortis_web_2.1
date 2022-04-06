@@ -22,7 +22,7 @@ const Title = styled.div`
     font-weight: 500;
     color: white;
     font-size: 42px;
-    line-height: 50px;
+    line-height: 45px;
 
 `;
 
@@ -34,12 +34,12 @@ const Desc = styled.div`
     justify-content: center;
     color: white;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 25px;
     font-weight: 200;
 `;
 const Buttons = styled.div`
     width: 90%;
-    height: 200px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;

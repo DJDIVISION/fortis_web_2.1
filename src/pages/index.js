@@ -29,7 +29,7 @@ const Section = styled.div`
 
 const SmartSection = styled.div`
     width: 100vw;
-    height: 4900px;
+    height: 4300px;
     background: url(${SmartBG}), black;
     background-size: contain;
     background-repeat: no-repeat;
@@ -155,7 +155,6 @@ const FourthEmpty = styled.div`
 const SixthEmpty = styled.div`
     width: 100%;
     height: 425px;
-    border: 1px solid white;
 `;
 
 const Home = () => {
