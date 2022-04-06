@@ -24,12 +24,12 @@ const Top = styled.div`
 
 const Desc = styled.div`
     width: 85%;
-    height: 50%;
+    height: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 34px;
+    font-size: 26px;
     line-height: 40px;
     font-weight: 400;
 `;
