@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import {Link as LinkR} from "react-router-dom";
 import {motion} from "framer-motion";
-import TopSphere from "../../images/TopSphere.png";
 import FortisLogo from "../../svg/logo.svg";
 
 const Nav = styled.nav`

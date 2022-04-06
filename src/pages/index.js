@@ -29,7 +29,7 @@ const Section = styled.div`
 
 const SmartSection = styled.div`
     width: 100vw;
-    height: 4300px;
+    height: 3500px;
     background: url(${SmartBG}), black;
     background-size: contain;
     background-repeat: no-repeat;
