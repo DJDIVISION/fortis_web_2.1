@@ -20,10 +20,8 @@ const TopOne = styled.div`
     display: flex;
     align-items: center;
     padding-left: 20px;
-    h1{
-        color: white;
-        font-size: 58px;
-    }
+    color: white;
+    font-size: 58px;
 `;
 
 const TopTwo = styled.div`
@@ -34,23 +32,19 @@ const TopTwo = styled.div`
     align-items: center;
     justify-content: flex-end;
     padding-right: 20px;
-    h1{
-        color: white;
-        font-size: 58px;
-    }
+    color: white;
+    font-size: 58px;
 `;
 
 const Desc = styled.div`
-    width: 60%;
+    width: 80%;
     height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
-    h1{
-        font-size: 18px;
-        color: white;
-        font-weight: 200;
-    }
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
 `;
 
 const Buttons = styled.div`
@@ -67,9 +61,9 @@ const HeroSmart = () => {
     return(
         <Section>
             <Empty></Empty>
-            <TopOne><h1>The Coin of</h1></TopOne>
-            <TopTwo><h1>the people</h1></TopTwo>
-            <Desc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet a volutpat donec nisl, in turpis ridiculus tristique. Sed magna massa, cum scelerisque.</h1></Desc>
+            <TopOne>The Coin of</TopOne>
+            <TopTwo>the people</TopTwo>
+            <Desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet a volutpat donec nisl, in turpis ridiculus tristique. Sed magna massa, cum scelerisque.</Desc>
             <Buttons>
                 <TopButtonSmart>JOIN THE MOVEMENT</TopButtonSmart>
                 <BottomButtonSmart>LEARN MORE</BottomButtonSmart>

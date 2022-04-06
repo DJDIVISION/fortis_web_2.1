@@ -28,12 +28,10 @@ const Desc = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    h1{
-        color: white;
-        font-size: 34px;
-        line-height: 40px;
-        font-weight: 400;
-    }
+    color: white;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 400;
 `;
 
 
@@ -51,7 +49,7 @@ const MissionSmart = () => {
     return(
         <Section>
             <Top><img src={Whatis} alt="title" /></Top>
-            <Desc><h1>Fortis is on a mission ipsum dolor sit amet, consectetur adipiscing elit. Amet a volutpat donec nisl, in turpis ridiculus tristique. Sed magna massa, cum scelerisque.</h1></Desc>
+            <Desc>Fortis is on a mission ipsum dolor sit amet, consectetur adipiscing elit. Amet a volutpat donec nisl, in turpis ridiculus tristique. Sed magna massa, cum scelerisque.</Desc>
             <Buttons>
                 <TopButtonSmart>WHITEPAPER</TopButtonSmart>
                 <BottomButtonSmart>ECOSYSTEM</BottomButtonSmart>
