@@ -4,11 +4,10 @@ import {TopButtonSmart, BottomButtonSmart} from "./Elements";
 
 const Section = styled.div`
     max-width: 100vw;
-    height: 670px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid white;
 `;
 const Empty = styled.div`
     width: 100%;

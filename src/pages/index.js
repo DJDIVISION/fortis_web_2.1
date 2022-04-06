@@ -148,7 +148,8 @@ const ThirdEmpty = styled.div`
 
 const FourthEmpty = styled.div`
     width: 100%;
-    height: 30vh;
+    height: 150px;
+    border: 1px solid white;
 `;
 
 const FifthEmpty = styled.div`
@@ -185,7 +186,6 @@ const Home = () => {
         <SmartSection>
             <SmartNavBar /> 
             <HeroSmart />
-            <FourthEmpty />
             <MissionSmart />
             <FourthEmpty />
             <EcosystemSmart />

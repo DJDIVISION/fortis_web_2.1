@@ -7,16 +7,18 @@ import Whatis from "../../svg/whatis.svg";
 
 const Section = styled.div`
     max-width: 100vw;
-    height: 90vh;
+    height: 540px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid white;
 `;
 
 const Top = styled.div`
     width: 85%;
-    height: 7.5%;
-    
+    height: 50px;
+    display: flex;
+    align-items: center;
     img{
         transform: scale(1.2) translate(10%, 0);
     }
@@ -24,7 +26,7 @@ const Top = styled.div`
 
 const Desc = styled.div`
     width: 85%;
-    height: 40%;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +39,7 @@ const Desc = styled.div`
 
 const Buttons = styled.div`
     width: 90%;
-    height: 37.5%;
+    height: 200px;
     display: flex;
     flex-direction: column;
     padding-top: 20px;
