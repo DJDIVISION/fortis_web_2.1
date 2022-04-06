@@ -12,7 +12,7 @@ import LearnMore from "../../svg/learnMore.svg";
 
 const Section = styled.div`
     width: 100%;
-    height: 3000px;
+    height: 2600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,7 @@ const Section = styled.div`
 
 const ImageWrapper = styled.div`
     width: 100%;
-    height: 60vh;
+    height: 425px;
 `;
 
 const ImageHolder = styled.div`
@@ -43,7 +43,7 @@ const ImageHolder = styled.div`
 
 const Logo = styled.div`
     width: 80%;
-    height: 10vh;
+    height: 50px;
     display: flex;
     align-items: center;
     img{
@@ -53,20 +53,18 @@ const Logo = styled.div`
 
 const Title = styled.div`
     width: 80%;
-    height: 80vh;
+    height: 500px;
     display: flex;
     align-items: center;
-    h1{
-        font-size: 32px;
-        color: white;
-        font-weight: 500;
-        
-    }
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+    line-height: 40px;
 `;
 
 const BigImageWrapper = styled.div`
     width: 100%;
-    height: 50vh;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,8 +72,8 @@ const BigImageWrapper = styled.div`
 `;
 
 const BigImageHolder = styled.div`
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background: white;
     border-radius: 50%;
     margin-bottom: 30px;
@@ -107,11 +105,9 @@ const Text = styled.div`
     align-items: center;
     justify-content: center;
     text-align: center;
-    h1{
-        font-size: 48px;
-        color: white;
-        font-weight: 400;
-    }
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
 `;
 
 const Desc = styled.div`
@@ -122,11 +118,9 @@ const Desc = styled.div`
     justify-content: center;
     text-align: center;
     margin-bottom: 100px;
-    h1{
-        font-size: 22px;
-        color: white;
-        font-weight: 200;
-    }
+    font-size: 22px;
+    color: white;
+    font-weight: 200;
 `;
 
 const BottomRow = styled.div`
@@ -162,7 +156,7 @@ const SmartTeam = () => {
                 <ImageHolder><img src={FounderImg} alt="Jesus" /></ImageHolder>
             </ImageWrapper>
             <Logo><img src={MeetTeam} alt="title" /></Logo>
-            <Title><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></Title>
+            <Title>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Title>
             <BigImageWrapper>
                 <BigImageHolder><img src={FounderImg} alt="Jesus" /></BigImageHolder>
                 <Row><h1>James Gordon</h1></Row>
@@ -178,8 +172,8 @@ const SmartTeam = () => {
                 <Row><h1>Cameron Diaz</h1></Row>
                 <Row><img src={COO} alt="Jesus" /></Row>
             </BigImageWrapper>
-            <Text><h1>Join the Team</h1></Text>
-            <Desc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></Desc>
+            <Text>Join the Team</Text>
+            <Desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Desc>
             <BottomRow>
                 <InnerRow><h1>Web Developer <span> - Full Time</span></h1><img src={LearnMore} alt="learn" /></InnerRow>
             </BottomRow>

@@ -5,7 +5,7 @@ import {TopButtonSmart, BottomButtonSmart} from "./Elements";
 
 const Section = styled.div`
     max-width: 100vw;
-    height: 90vh;
+    height: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,19 +13,14 @@ const Section = styled.div`
 
 const Row = styled.div`
     width: 100%;
-    height: 15vh;
+    height: 110px;
     display: flex;
     align-items: center;
-    h1{
-        font-size: 52px;
-        color: white;
-        font-weight: 500;
-    }
 `;
 
 const RowOne = styled.div`
     width: 100%;
-    height: 7.5vh;
+    height: 60px;
     display: flex;
     align-items: center;
     h1{
@@ -38,7 +33,7 @@ const RowOne = styled.div`
 
 const RowTwo = styled.div`
     width: 100%;
-    height: 7.5vh;
+    height: 60px;
     display: flex;
     align-items: center;
     h1{
@@ -50,7 +45,7 @@ const RowTwo = styled.div`
 `;
 const RowThree = styled.div`
     width: 100%;
-    height: 7.5vh;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,22 +58,25 @@ const RowThree = styled.div`
 
 const Desc = styled.div`
     width: 85%;
-    height: 25vh;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     h1{
         color: white;
-        font-size: 22px;
-        line-height: 30px;
-        font-weight: 300;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 200;
     }
 `;
 
 const Buttons = styled.div`
     width: 100%;
-    height: 27.5vh;
+    height: 220px;
     padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 `;
 
 const HeroAbout = () => {

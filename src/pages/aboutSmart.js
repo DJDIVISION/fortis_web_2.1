@@ -10,10 +10,7 @@ import SmartTeam from "../components/Sections/SmartTeam";
 
 import Back from "../images/about/AboutSmartBG.png";
 
-const FirstEmpty = styled.div`
-    width: 100%;
-    height: 10vh;
-`;
+
 
 const Section = styled.div`
     width: 100vw;
@@ -33,7 +30,6 @@ const AboutSmart = () => {
         <Section>
             <AboutSmartNavBar />
             <HeroAbout />
-            <FirstEmpty />
             <SmartAbout />
             <SmartFounder />
         </Section>
