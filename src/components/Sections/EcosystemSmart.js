@@ -19,11 +19,9 @@ const Title = styled.div`
     align-items: center;
     justify-content: center;
     margin-left: 20px;
-    h1{
-        color: white;
-        font-size: 52px;
-        line-height: 55px;
-    }
+    color: white;
+    font-size: 52px;
+    line-height: 55px;
 
 `;
 
@@ -34,12 +32,10 @@ const Desc = styled.div`
     align-items: center;
     justify-content: center;
     margin-left: 30px;
-    h1{
-        color: white;
-        font-size: 22px;
-        line-height: 30px;
-        font-weight: 400;
-    }
+    color: white;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
 `;
 const Buttons = styled.div`
     width: 90%;
@@ -54,8 +50,8 @@ const Buttons = styled.div`
 const EcosystemSmart = () => {
     return(
         <Section>
-            <Title><h1>The Fortis ecosystem</h1></Title>
-            <Desc><h1>Fortis is on a mission ipsum dolor sit amet, consectetur adipiscing elit. Amet a volutpat donec nisl, in turpis ridiculus tristique. Sed magna massa, cum scelerisque.</h1></Desc>
+            <Title>The Fortis ecosystem</Title>
+            <Desc>Fortis is on a mission ipsum dolor sit amet, consectetur adipiscing elit. Amet a volutpat donec nisl, in turpis ridiculus tristique. Sed magna massa, cum scelerisque.</Desc>
             <Buttons>
             <TopButtonSmart>JOIN THE MOVEMENT</TopButtonSmart>
             <BottomButtonSmart>LEARN MORE</BottomButtonSmart>

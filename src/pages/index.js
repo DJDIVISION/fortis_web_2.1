@@ -187,7 +187,7 @@ const Home = () => {
             <HeroSmart />
             <FourthEmpty />
             <MissionSmart />
-            <FifthEmpty />
+            <FourthEmpty />
             <EcosystemSmart />
             <SixthEmpty />
             <PoweredSmart />
