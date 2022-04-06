@@ -15,7 +15,7 @@ import RoadmapSection from "../components/Sections/RoadmapSection";
 
 const Section = styled.div`
     width: 100vw;
-    height: 9000px;
+    height: 8000px;
     background: url(${Back}), black;
     background-size: contain;
     background-repeat: no-repeat;

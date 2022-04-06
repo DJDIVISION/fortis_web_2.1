@@ -109,7 +109,7 @@ const ElementsSection = () => {
     return(
         <Section>
             <Title><h1>Five key elements make up the Fortis App</h1></Title>
-            <Grid>
+            <Grid> 
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Fiat On-Ramp</h1></BoxTitle>

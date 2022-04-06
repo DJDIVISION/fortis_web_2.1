@@ -10,7 +10,7 @@ import IconRoad from "../../images/roadmap/iconRoad.png";
 import IconLabs from "../../images/roadmap/IconLabs.png";
 
 
-const Section = styled.div`
+const Section = styled.div` 
     width: 100vw;
     height: 100vh;
     display: flex;

@@ -34,7 +34,7 @@ const Title = styled.div`
     color: white;
     font-weight: 400;
     border: 1px solid white;
-`;
+`; 
 
 const FirstRow = styled.div`
     width: 60%;

@@ -111,25 +111,25 @@ const FeaturesSection = () => {
             <Grid>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
-                    <BoxTitle><h1>Fiat On-Ramp</h1></BoxTitle>
+                    <BoxTitle><h1>Customised Checkouts</h1></BoxTitle>
                     <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
-                    <BoxTitle><h1>Fort'nomics</h1></BoxTitle>
+                    <BoxTitle><h1>Invoices</h1></BoxTitle>
                     <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
-                    <BoxTitle><h1>Debit Cards</h1></BoxTitle>
+                    <BoxTitle><h1>Live API's</h1></BoxTitle>
                     <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
-                    <BoxTitle><h1>Lending Platform</h1></BoxTitle>
+                    <BoxTitle><h1>Business Reports</h1></BoxTitle>
                     <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
