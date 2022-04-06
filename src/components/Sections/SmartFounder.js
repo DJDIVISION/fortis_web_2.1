@@ -9,7 +9,7 @@ import Back from "../../images/about/BlackBG.png";
 
 const Section = styled.div`
     width: 100%;
-    height: 180vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +20,7 @@ const Section = styled.div`
 
 const Empty = styled.div`
     width: 80%;
-    height: 20vh;
+    height: 10vh;
 `;
 
 

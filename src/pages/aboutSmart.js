@@ -17,7 +17,7 @@ const FirstEmpty = styled.div`
 
 const Section = styled.div`
     width: 100vw;
-    height: 3400px;
+    height: 3050px;
     display: flex;
     flex-direction: column;
     background: url(${Back}), black;

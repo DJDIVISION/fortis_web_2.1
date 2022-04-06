@@ -7,6 +7,7 @@ import CTO from "../../svg/CTO.svg";
 import COO from "../../svg/COO.svg";
 import FounderImg from "../../images/about/founderImg.png";
 import Back from "../../images/about/BGTwo.png";
+import LearnMore from "../../svg/learnMore.svg";
 
 
 const Section = styled.div`
@@ -14,6 +15,7 @@ const Section = styled.div`
     height: 3000px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background: url(${Back}), red;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,8 +23,7 @@ const Section = styled.div`
 
 const ImageWrapper = styled.div`
     width: 100%;
-    height: 70vh;
-    border: 1px solid white;
+    height: 60vh;
 `;
 
 const ImageHolder = styled.div`
@@ -31,7 +32,7 @@ const ImageHolder = styled.div`
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    transform: translate(-55%, 0) scaleY(0.95);
+    transform: translate(-55%, 0);
     img{
         width: 100%;
         display: block;
@@ -40,13 +41,116 @@ const ImageHolder = styled.div`
     }
 `;
 
-const Title = styled.div`
+const Logo = styled.div`
     width: 80%;
     height: 10vh;
     display: flex;
     align-items: center;
     img{
         transform: translate(10%, 0);
+    }
+`;
+
+const Title = styled.div`
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    h1{
+        font-size: 32px;
+        color: white;
+        font-weight: 500;
+        
+    }
+`;
+
+const BigImageWrapper = styled.div`
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`;
+
+const BigImageHolder = styled.div`
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    img{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+`;
+
+const Row = styled.div`
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 28px;
+        color: white;
+        font-weight: 400;
+    }
+`;
+
+const Text = styled.div`
+    width: 95%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h1{
+        font-size: 48px;
+        color: white;
+        font-weight: 400;
+    }
+`;
+
+const Desc = styled.div`
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    h1{
+        font-size: 22px;
+        color: white;
+        font-weight: 200;
+    }
+`;
+
+const BottomRow = styled.div`
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+const InnerRow = styled.div`
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #666666;
+    h1{
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+        span{
+            color: #666666;
+        }
     }
 `;
 
@@ -57,7 +161,31 @@ const SmartTeam = () => {
             <ImageWrapper>
                 <ImageHolder><img src={FounderImg} alt="Jesus" /></ImageHolder>
             </ImageWrapper>
-            <Title><img src={MeetTeam} alt="title" /></Title>
+            <Logo><img src={MeetTeam} alt="title" /></Logo>
+            <Title><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></Title>
+            <BigImageWrapper>
+                <BigImageHolder><img src={FounderImg} alt="Jesus" /></BigImageHolder>
+                <Row><h1>James Gordon</h1></Row>
+                <Row><img src={CEO} alt="Jesus" /></Row>
+            </BigImageWrapper>
+            <BigImageWrapper>
+                <BigImageHolder><img src={FounderImg} alt="Jesus" /></BigImageHolder>
+                <Row><h1>Adam Parker</h1></Row>
+                <Row><img src={CTO} alt="Jesus" /></Row>
+            </BigImageWrapper>
+            <BigImageWrapper>
+                <BigImageHolder><img src={FounderImg} alt="Jesus" /></BigImageHolder>
+                <Row><h1>Cameron Diaz</h1></Row>
+                <Row><img src={COO} alt="Jesus" /></Row>
+            </BigImageWrapper>
+            <Text><h1>Join the Team</h1></Text>
+            <Desc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></Desc>
+            <BottomRow>
+                <InnerRow><h1>Web Developer <span> - Full Time</span></h1><img src={LearnMore} alt="learn" /></InnerRow>
+            </BottomRow>
+            <BottomRow>
+                <InnerRow><h1>Technical Developer<span> - Full Time</span></h1><img src={LearnMore} alt="learn" /></InnerRow>
+            </BottomRow>
         </Section>
     )
 }
