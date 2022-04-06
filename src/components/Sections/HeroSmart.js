@@ -12,7 +12,7 @@ const Section = styled.div`
 `;
 const Empty = styled.div`
     width: 100%;
-    height: 17.5%;
+    height: 12.5%;
 `;
 
 const TopOne = styled.div`
@@ -39,11 +39,11 @@ const TopTwo = styled.div`
 
 const Desc = styled.div`
     width: 75%;
-    height: 30%;
+    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
+    font-size: 18px;
     color: white;
     font-weight: 200;
     transform: translate(0, 25px);
