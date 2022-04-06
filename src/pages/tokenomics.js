@@ -13,7 +13,7 @@ import InvestorsSection from "../components/Sections/InvestorsSection";
 
 const Section = styled.div`
     width: 100vw;
-    height: 8200px;
+    height: 7800px;
     background: url(${Back}), black;
     background-size: contain;
     background-repeat: no-repeat;

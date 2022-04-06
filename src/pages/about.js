@@ -12,10 +12,11 @@ import JoinTeamSection from "../components/Sections/JoinTeamSection";
 
 const Section = styled.div`
     width: 100vw;
-    height: 5360px;
+    height: 4250px;
     display: flex;
     flex-direction: column;
     background: url(${Back}), black;
+    background-repeat: no-repeat;
     background-size: contain;
 `;
 

@@ -17,7 +17,7 @@ import SmartBG from "../images/home/SmartBG.png";
 
 const Section = styled.div`
     width: 100vw;
-    height: 4050px;
+    height: 3600px;
     background: url(${BG}), black;
     background-size: contain;
     background-repeat: no-repeat;

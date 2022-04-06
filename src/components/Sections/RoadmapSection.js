@@ -4,7 +4,7 @@ import {motion} from "framer-motion";
 
 const Section = styled.div`
     width: 100%;
-    height: 200vh;
+    height: 220vh;
     display: flex;
     border: 1px solid white;
 `;
