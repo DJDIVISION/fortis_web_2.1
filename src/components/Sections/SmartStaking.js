@@ -6,7 +6,7 @@ import {TopButtonSmart, BottomButtonSmart} from "./Elements";
 
 const Section = styled.div`
     width: 95%;
-    height: 145vh;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,44 +14,39 @@ const Section = styled.div`
 
 const Title = styled.div`
     width: 95%;
-    height: 10vh;
+    height: 100px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    h1{
-        font-size: 48px;
-        color: white;
-        font-weight: 400;
-    }
+    font-size: 38px;
+    color: white;
+    font-weight: 400;
 `;
 
 const Desc = styled.div`
-    width: 95%;
-    height: 30vh;
+    width: 90%;
+    height: 225px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
     text-align: center;
-    h1{
-        font-size: 18px;
-        color: white;
-        font-weight: 200;
-        line-height: 30px;
-        
-    }
 `;
 
 const Grid = styled.div`
     width: 95%;
-    height: 80vh;
+    height: 500px;
     display: flex;
     flex-direction: column;
 `;
 
 const Buttons = styled.div`
     width: 100%;
-    height: 25vh;
+    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,8 +110,8 @@ const Row = styled.div`
 const SmartStaking = () => {
     return(
         <Section>
-            <Title><h1>Staking Rewards</h1></Title>
-            <Desc><h1>The FORT Staking feature will increase the current circulating supply by using an inflationary smart contract. This method is used to reward users that are staking FORT to support the project. The table below will give a better understanding of the Staking per year.</h1></Desc>
+            <Title>Staking Rewards</Title>
+            <Desc>The FORT Staking feature will increase the current circulating supply by using an inflationary smart contract. This method is used to reward users that are staking FORT to support the project. The table below will give a better understanding of the Staking per year.</Desc>
             <Grid>
             <FirstRow>
                     <ColumnLeft><h1>Year</h1></ColumnLeft>

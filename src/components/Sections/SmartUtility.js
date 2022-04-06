@@ -14,15 +14,20 @@ import Icon8 from "../../images/tokenomics/icon8.png";
 
 const Section = styled.div`
     width: 100%;
-    height: 180vh;
+    height: 1450px;
     display: flex;
     flex-direction: column;
     align-items: center;
 `;
 
+const TopEmpty = styled.div`
+    width: 100%;
+    height: 100px;
+`;
+
 const Logo = styled.div`
     width: 90%;
-    height: 10vh;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,8 +37,8 @@ const Logo = styled.div`
 `;
 
 const Title = styled.div`
-    width: 95%;
-    height: 30vh;
+    width: 80%;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +52,7 @@ const Title = styled.div`
 
 const Grid = styled.div`
     width: 95%;
-    height: 110vh;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,10 +108,10 @@ const BoxText = styled.div`
     height: 25%;
     width: 100%;
     h1{
-        font-size: 18px;
+        font-size: 16px;
         color: white;
         font-weight: 400;
-        padding-left: 10px;
+        padding-left: 8px;
     }
 `;
 
@@ -114,6 +119,7 @@ const BoxText = styled.div`
 const SmartUtility = () => {
     return(
         <Section>
+            <TopEmpty />
             <Logo><img src={Utility} alt="title" /></Logo>
             <Title><h1>The FORT token provides versatile utility for a number of use cases within the Fortis ecosystem.</h1></Title>
             <Grid>

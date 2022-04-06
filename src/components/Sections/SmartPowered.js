@@ -23,7 +23,7 @@ const Section = styled.div`
 
 const Logo = styled.div`
     width: 90%;
-    height: 10vh;
+    height: 125px;
     display: flex;
     align-items: center;
     img{
@@ -33,14 +33,12 @@ const Logo = styled.div`
 
 const Title = styled.div`
     width: 95%;
-    height: 20vh;
+    height: 50px;
     display: flex;
     align-items: center;
-    h1{
-        font-size: 32px;
-        color: white;
-        font-weight: 400;
-    }
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
 `;
 
 const Buttons = styled.div`
@@ -135,7 +133,8 @@ const SmartPowered = () => {
     return(
         <Section>
             <Logo><img src={Powered} alt="" /></Logo>
-            <Title><h1>Find out where Fort comes from & what it’s for!</h1></Title>
+            <Title>Find out where Fort</Title>
+            <Title>comes from & what it’s for!</Title>
             <Buttons>
                 <TopButtonSmart style={{margin: '10px 0px'}}>ACQUIRE FORT</TopButtonSmart>
                 <BottomButtonSmart style={{margin: '10px 0px'}}>JOIN THE MOVEMENT</BottomButtonSmart>

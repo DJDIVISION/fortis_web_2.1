@@ -29,7 +29,6 @@ const Section = styled.div`
 const Wrapper = styled.div`
     width: 100%;
     height: 600px;
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,23 +72,34 @@ const Buttons = styled.div`
 
 const SecondEmpty = styled.div`
     width: 100%;
-    height: 15vh;
+    height: 90px;
 `;
 
 const ThirdEmpty = styled.div`
     width: 100%;
-    height: 5vh;
+    height: 50px;
 `;
 
 const FourthEmpty = styled.div`
     width: 100%;
-    height: 75vh;
+    height: 100px;
+`;
+
+const FifthEmpty = styled.div`
+    width: 100%;
+    height: 600px;
+`;
+
+const EmptyTwo = styled.div`
+    width: 100%;
+    height: 125px;
 `;
 
 
 
 const TokenomicsSmart = () => {
     return(
+        <>
         <Section>
             <TokenomicsSmartNavBar />
             <Wrapper>
@@ -107,14 +117,15 @@ const TokenomicsSmart = () => {
             <SmartUtility />
             <ThirdEmpty />
             <SmartSupply />
-            <SmartGraph />
-            <Empty />
-            <SmartBurn />
             <FourthEmpty />
+            <SmartGraph />
+            <EmptyTwo />
+            <SmartBurn />
+            <FifthEmpty />
             <SmartStaking />
-            <SecondEmpty />
-            <SmartInvestors />
         </Section>
+        <SmartInvestors />
+        </>
     )
 }
 

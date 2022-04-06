@@ -13,7 +13,7 @@ const Section = styled.div`
 
 const Logo = styled.div`
     width: 90%;
-    height: 10vh;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@ const Logo = styled.div`
 
 const Title = styled.div`
     width: 95%;
-    height: 20vh;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@ const Title = styled.div`
 
 const Grid = styled.div`
     width: 95%;
-    height: 65vh;
+    height: 500px;
     display: flex;
     flex-direction: column;
 `;

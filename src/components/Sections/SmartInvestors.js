@@ -5,6 +5,7 @@ import Acquire from "../../svg/acquire.svg";
 import Box1 from "../../images/roadmap/box1.png";
 import Box2 from "../../images/roadmap/box2.png";
 import Box3 from "../../images/roadmap/box3.png";
+import Back from "../../images/about/BlackBG.png";
 import IconApp from "../../images/roadmap/IconSales.png";
 import IconRoad from "../../images/roadmap/IconSwap.png";
 import IconLabs from "../../images/roadmap/IconExchange.png";
@@ -15,11 +16,12 @@ const Section = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(${Back});
 `;
 
 const Logo = styled.div`
     width: 90%;
-    height: 10vh;
+    height: 75px;
     display: flex;
     align-items: center;
     img{
@@ -29,17 +31,14 @@ const Logo = styled.div`
 
 const Title = styled.div`
     width: 95%;
-    height: 20vh;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 50px;
-    h1{
-        font-size: 32px;
-        color: white;
-        font-weight: 400;
-    }
+    font-size: 32px;
+    color: white;
+    font-weight: 400;
 `;
 
 const Carousel = styled(motion.div)`
@@ -124,7 +123,7 @@ const SmartInvestors = () => {
     return(
         <Section>
             <Logo><img src={Acquire} alt="" /></Logo>
-            <Title><h1>Interested investors will be able to acquire the FORT token through a number of methods</h1></Title>
+            <Title>Interested investors will be able to acquire the FORT token through a number of methods</Title>
             <Carousel ref={carroussel}>
                 <InnerCarousel drag="x" dragConstraints={{right: 0, left: -width}} whileTap={{cursor: 'grabbing'}}>
                     <Item style={{backgroundImage: `url(${Box1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
