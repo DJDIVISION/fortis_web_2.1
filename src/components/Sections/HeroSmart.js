@@ -4,14 +4,15 @@ import {TopButtonSmart, BottomButtonSmart} from "./Elements";
 
 const Section = styled.div`
     max-width: 100vw;
-    height: 80vh;
+    height: 670px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid white;
 `;
 const Empty = styled.div`
     width: 100%;
-    height: 20%;
+    height: 17.5%;
 `;
 
 const TopOne = styled.div`
@@ -26,7 +27,7 @@ const TopOne = styled.div`
 
 const TopTwo = styled.div`
     width: 100vw;
-    height: 12.5%;
+    height: 7.5%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,19 +38,20 @@ const TopTwo = styled.div`
 `;
 
 const Desc = styled.div`
-    width: 80%;
+    width: 75%;
     height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 22px;
     color: white;
     font-weight: 200;
+    transform: translate(0, 25px);
 `;
 
 const Buttons = styled.div`
     width: 100%;
-    height: 25%;
+    height: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
