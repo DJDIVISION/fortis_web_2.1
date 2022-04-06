@@ -55,7 +55,7 @@ const Fortis = styled.h1`
 
 const DropDown = styled(motion.div)`
     position: absolute;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     top: 0;
     background: rgba(24, 27, 36, 0.72);

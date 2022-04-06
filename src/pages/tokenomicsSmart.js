@@ -16,52 +16,55 @@ import Back from "../images/tokenomics/tokenomicsSmartBG.png";
 
 const Section = styled.div`
     width: 100vw;
-    height: 8750px;
+    height: 6900px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: url(${Back});
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
 `;
 
+const Wrapper = styled.div`
+    width: 100%;
+    height: 600px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;
+
 const Empty = styled.div`
     width: 100%;
-    height: 10vh;
+    height: 100px;
 `;
 
 const Text = styled.div`
     width: 90%;
-    height: 20vh;
+    height: 100px;
     display: flex;
     align-items: center;
-    line-height: 70px;
-    h1{
-        font-size: 58px;
-        color: white;
-        font-weight: 500;
-    }
+    font-size: 52px;
+    color: white;
+    font-weight: 500;
 `;
 
 const Desc = styled.div`
-    width: 70%;
-    height: 30vh;
+    width: 80%;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    h1{
-        color: white;
-        font-size: 20px;
-        line-height: 30px;
-        font-weight: 300;
-        transform: translate(5%, 0);
-    }
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
 `;
 
 const Buttons = styled.div`
     width: 80%;
-    height: 30vh;
+    height: 225px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,14 +92,16 @@ const TokenomicsSmart = () => {
     return(
         <Section>
             <TokenomicsSmartNavBar />
+            <Wrapper>
             <Empty />
-            <Text><h1>FORT'nomics</h1></Text>
-            <Desc><h1>Amet a volutpat donec nisl, in turpis ridiculus tristique. Sed magna massa, cum scelerisque. Dolor sit abetus achtum dolastro umago dobak lumbro sol abestro.</h1></Desc>
+            <Text>FORT'nomics</Text>
+            <Desc>Amet a volutpat donec nisl, in turpis ridiculus tristique. Sed magna massa, cum scelerisque. Dolor sit abetus achtum dolastro umago dobak lumbro sol abestro.</Desc>
             <Buttons>
                 <TopButtonSmart>JOIN THE MOVEMENT</TopButtonSmart>
                 <BottomButtonSmart>ACQUIRE FORT</BottomButtonSmart>
                 <BottomButtonSmart>LEARN MORE</BottomButtonSmart>
             </Buttons>
+            </Wrapper>
             <SecondEmpty />
             <SmartPowered />
             <SmartUtility />
