@@ -2,8 +2,8 @@ import styled from "styled-components";
 import {motion} from "framer-motion";
 
 export const TopButtonSmart = styled(motion.div)`
-    width: 225px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     font-size: 14px;
     font-weight: 500;
     background: white;
@@ -18,8 +18,8 @@ export const TopButtonSmart = styled(motion.div)`
 `;
 
 export const BottomButtonSmart = styled(motion.div)`
-    width: 225px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     font-size: 14px;
     font-weight: 500;
     background: white;

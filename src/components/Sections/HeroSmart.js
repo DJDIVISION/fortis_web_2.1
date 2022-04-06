@@ -42,7 +42,7 @@ const Desc = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     font-weight: 200;
 `;
