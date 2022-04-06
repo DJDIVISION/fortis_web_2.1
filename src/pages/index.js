@@ -148,18 +148,14 @@ const ThirdEmpty = styled.div`
 
 const FourthEmpty = styled.div`
     width: 100%;
-    height: 150px;
-    border: 1px solid white;
-`;
-
-const FifthEmpty = styled.div`
-    width: 100%;
-    height: 60vh;
+    height: 470px;
+    
 `;
 
 const SixthEmpty = styled.div`
     width: 100%;
-    height: 70vh;
+    height: 425px;
+    border: 1px solid white;
 `;
 
 const Home = () => {

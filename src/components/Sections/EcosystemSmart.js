@@ -6,42 +6,43 @@ import {TopButtonSmart, BottomButtonSmart} from "./Elements";
 
 const Section = styled.div`
     max-width: 100vw;
-    height: 60vh;
+    height: 400px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 `;
 
 const Title = styled.div`
-    width: 70%;
-    height: 30%;
+    width: 80%;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 20px;
+    font-weight: 500;
     color: white;
-    font-size: 52px;
-    line-height: 55px;
+    font-size: 42px;
+    line-height: 50px;
 
 `;
 
 const Desc = styled.div`
     width: 80%;
-    height: 40%;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 30px;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 200;
 `;
 const Buttons = styled.div`
     width: 90%;
-    height: 30%;
+    height: 200px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
     padding-left: 30px;
 `;
