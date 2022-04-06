@@ -37,26 +37,26 @@ const Title = styled.div`
 const FirstRow = styled.div`
     width: 60%;
     height: 50px;
-    transform: translate(30%, 100%);
+    margin-left: 30%;
     font-size: 20px;
     color: white;
     font-weight: 400; 
-
+    margin-top: 10px;
 `;
 
 const SecondRow = styled.div`
     width: 60%;
     height: 100px;
-    transform: translate(30%, 55%);
+    margin-left: 30%;
     font-size: 16px;
     color: white;
-    font-weight: 200; 
-
+    font-weight: 200;
+    margin-top: 10px;
 `;
 
 const Empty = styled.div`
     width: 100%;
-    height: 375px;
+    height: 355px;
 `;
 
 const Buttons = styled.div`
@@ -76,6 +76,7 @@ const SmartGraph = () => {
         <Section>
             <Logo><img src={Usage} alt="" /></Logo>
             <Title>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</Title>
+            <FirstRow></FirstRow>
             <FirstRow>Marketing & Community Growth</FirstRow>
             <SecondRow>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid.</SecondRow>
             <Empty />
