@@ -13,7 +13,7 @@ import InvestorsSection from "../components/Sections/InvestorsSection";
 
 const Section = styled.div`
     width: 100vw;
-    height: 7800px;
+    height: 7000px;
     background: url(${Back}), black;
     background-size: contain;
     background-repeat: no-repeat;
@@ -23,8 +23,9 @@ const Section = styled.div`
 
 const Wrapper = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 700px;
     display: flex;
+    border: 1px solid white;
 `;
 
 const ColumnLeft = styled.div`
@@ -97,7 +98,7 @@ const Title = styled.div`
         color: white;
         font-size: 68px;
         font-weight: 400;
-        transform: translate(50%, 30%);
+        transform: translate(60%, 30%);
     }
 `;
 
@@ -147,8 +148,8 @@ const Tokenomics = () => {
             <TokenomicsNavBar />
             <Wrapper>
                 <ColumnLeft>
-                    <Title><h1>FORT' nomics</h1></Title>
-                    <Description><h1>Amet a volutpat donec nisl, in turpis ridiculus tristique. Sed magna massa, cum scelerisque. Dolor sit abetus achtum dolastro umago dobak lumbro sol abestro.</h1></Description>
+                    <Title><h1>FORT'nomics</h1></Title>
+                    <Description><h1>FORT is the utility token that powers the entire Fortis ecosystem. From payments to lending to holder rewards - it all happens with FORT. Learn how it works!</h1></Description>
                 </ColumnLeft>
                 <ColumnRight>
                     <ButtonWrapper>

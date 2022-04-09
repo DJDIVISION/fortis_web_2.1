@@ -30,20 +30,23 @@ const Section = styled.div`
 
 const TopRow = styled.div`
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     display: flex;
+    border: 1px solid white;
     
 `;
 
 const Slider = styled.div`
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid white;
     .swiper {
         width: 80%;
-        height: 70%;
+        height: 90%;
+        border: 1px solid white;
         @media screen and (max-width: 768px){
             width: 98%;
             height: 100vh;
@@ -70,8 +73,9 @@ const Slider = styled.div`
         align-items: center;
     }
 
-    .swiper-slide img {
-        
+    .swiper-pagination-bullets {
+        transform: translate(0, 50%);
+        position: absolute;
     }
 
     .swiper-button-next{
@@ -116,18 +120,19 @@ const RowColumn = styled.div`
 `;
 
 const Title = styled.div`
-    height: 20%;
+    height: 40%;
     width: 65%;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid white;
     img{
         transform: scale(1.2) translate(20%, 0);
     }
 `;
 
 const Text = styled.div`
-    height: 80%;
+    height: 60%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -148,6 +153,7 @@ const ButtonWrapper = styled.div`
     justify-content: center;
     width: 100%;
     height: 100%;
+    padding-top: 75px;
 `;
 
 const TopButton = styled(motion.div)`
@@ -215,7 +221,7 @@ const GridTitle = styled.div`
 `;
 
 const GridDesc = styled.div`
-    width: 90%;
+    width: 80%;
     height: 40%;
     display: flex;
     flex-direction: column;
@@ -224,8 +230,9 @@ const GridDesc = styled.div`
     text-align: center;
     h1{
         color: white;
-        font-weight: 400;
-        font-size: 18px;
+        font-weight: 200;
+        font-size: 14px;
+        transform: translate(0, -10%);
     }
 `;
 
@@ -260,22 +267,22 @@ const SliderSection = () => {
                         <SwiperSlide style={{backgroundImage: `url(${Box2})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}>
                             <Empty><img src={IconUtility} alt="icon1" /></Empty>
                             <GridTitle><h1>Utility</h1></GridTitle>
-                            <GridDesc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h1></GridDesc>
+                            <GridDesc><h1>Use your FORT within the Fortis App, Fortis Gateway, and Fortis Labs.</h1></GridDesc>
                         </SwiperSlide>
                         <SwiperSlide style={{backgroundImage: `url(${Box1})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}>
                             <Empty><img src={IconUsage} alt="icon1" /></Empty>
                             <GridTitle><h1>Allocation & Usage</h1></GridTitle>
-                            <GridDesc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h1></GridDesc>
+                            <GridDesc><h1>FORT has a strict limit of 1 billion tokens.</h1></GridDesc>
                         </SwiperSlide>
                         <SwiperSlide style={{backgroundImage: `url(${Box3})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}>
                             <Empty><img src={IconBurn} alt="icon1" /></Empty>
                             <GridTitle><h1>Burn Mechanism</h1></GridTitle>
-                            <GridDesc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h1></GridDesc>
+                            <GridDesc><h1>A monthly burn of FORT means that active users and holders are rewarded. Subject to conditions.</h1></GridDesc>
                         </SwiperSlide>
                         <SwiperSlide style={{backgroundImage: `url(${Box3})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}>
                             <Empty><img src={IconStaking} alt="icon1" /></Empty>
                             <GridTitle><h1>Staking & Rewards</h1></GridTitle>
-                            <GridDesc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h1></GridDesc>
+                            <GridDesc><h1>Fortis allows you to earn passive income by rewarding holders through smart contract technology.</h1></GridDesc>
                         </SwiperSlide>
                 </Swiper>
             </Slider>

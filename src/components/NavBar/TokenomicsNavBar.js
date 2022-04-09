@@ -11,6 +11,7 @@ const Nav = styled.nav`
     align-items: center;
     position: absolute;
     top: 40px;
+    left: 80px;
 `;
 
 const NavLogo = styled.div`
