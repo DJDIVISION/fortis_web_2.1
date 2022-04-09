@@ -13,20 +13,21 @@ const Section = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid white;
 `;
 
 const TeamTitle = styled.div`
     width: 60%;
-    height: 200px;
+    height: 100px;
     display: flex;
     align-items: center;
     img{
-        transform: scale(1.2) translate(25%, 250%);
+        transform: scale(1.2) translate(25%, 0%);
     }
 `;
 
 const Text = styled.div`
-    width: 50%;
+    width: 60%;
     height: 30vh;
     display: flex;
     align-items: center;
@@ -37,7 +38,7 @@ const Text = styled.div`
         line-height: 45px;
         font-style: normal;
         font-weight: 400;
-        transform: translate(-7%, 0%);
+        transform: translate(2.5%, 0%);
     }
 `;
 
@@ -61,7 +62,7 @@ const Column = styled.div`
 
 const Image = styled.div`
     width: 100%;
-    height: 80%;
+    height: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +74,7 @@ const GridText = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translate(0, -50%);
+    transform: translate(0, 0%);
     img{
         transform: scale(1.2);
     }
@@ -85,8 +86,8 @@ const GridText = styled.div`
 `;
 
 const ImageHolder = styled.div`
-    width: 220px;
-    height: 220px;
+    width: 150px;
+    height: 150px;
     background: black;
     border-radius: 50%;
     background-size: cover;

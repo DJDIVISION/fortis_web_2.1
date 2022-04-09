@@ -38,7 +38,7 @@ const ColumnTitle = styled.div`
 
 const Title = styled.div`
     width: 100%;
-    height: 25%;
+    height: 20%;
     display: flex;
     align-items: center;
     
@@ -46,7 +46,7 @@ const Title = styled.div`
         font-size: 58px;
         color: white;
         line-height: 70px;
-        width: 70%;
+        width: 80%;
         margin-left: 20px;
     }
 `;
@@ -67,7 +67,7 @@ const Description = styled.div`
 
 const ButtonWrapper = styled.div`
     width: 100%;
-    height: 15%;
+    height: 10%;
     display: flex;
     align-items: center;
     margin-left: 20px;
@@ -92,12 +92,12 @@ const TopButton = styled(motion.div)`
 `;
 
 const ImageHolder = styled.div`
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     background: black;
     border-radius: 50%;
-    margin-top: 190px;
-    margin-left: 50px;
+    margin-top: 160px;
+    margin-left: 75px;
     background-image: url(${FounderImg});
     background-size: cover;
 `;

@@ -13,12 +13,12 @@ import {TopButton, BottomButton} from "../components/Sections/Elements";
 
 const Section = styled.div`
     width: 100vw;
-    height: 4250px;
+    height: 3790px;
     display: flex;
     flex-direction: column;
     background: url(${Back}), black;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     align-items: center;
 `;
 
@@ -97,7 +97,7 @@ const Empty = styled.div`
 
 const SecondEmpty = styled.div`
     width: 100%;
-    height: 200px;
+    height: 100px;
 `;
 
 const About = () => {
