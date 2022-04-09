@@ -8,6 +8,7 @@ import AboutSection from "../components/Sections/AboutSection";
 import FounderSection from "../components/Sections/FounderSection";
 import TeamSection from "../components/Sections/TeamSection";
 import JoinTeamSection from "../components/Sections/JoinTeamSection";
+import Footer from "../components/Sections/Footer";
 import {TopButton, BottomButton} from "../components/Sections/Elements";
 
 
@@ -102,6 +103,7 @@ const SecondEmpty = styled.div`
 
 const About = () => {
     return(
+        <>
         <Section>
             <AboutNavBar />
             <EmptyRow></EmptyRow>
@@ -126,6 +128,8 @@ const About = () => {
             <Empty></Empty>
             <JoinTeamSection />
         </Section>
+        <Footer />
+        </>
     )
 }
 

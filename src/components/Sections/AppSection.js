@@ -60,7 +60,7 @@ const AppSection = () => {
             <Column>
                 <Title><img src={App} alt="title" /></Title>
                 <Text><h1>Enabling seamless access to the Fortis ecosystem</h1></Text>
-                <Description><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></Description>
+                <Description><h1>The first stop in our Fortis mission is developing the Fortis App - your portal to the crypto products and services you need. And it all takes place in a secure and easy-to-use environment.</h1></Description>
             </Column>
         </Section>
     )

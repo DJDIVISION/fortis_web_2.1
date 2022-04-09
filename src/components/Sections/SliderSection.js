@@ -32,7 +32,6 @@ const TopRow = styled.div`
     width: 100%;
     height: 40vh;
     display: flex;
-    border: 1px solid white;
     
 `;
 
@@ -42,11 +41,9 @@ const Slider = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
     .swiper {
         width: 80%;
         height: 90%;
-        border: 1px solid white;
         @media screen and (max-width: 768px){
             width: 98%;
             height: 100vh;
@@ -125,7 +122,6 @@ const Title = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
     img{
         transform: scale(1.2) translate(20%, 0);
     }

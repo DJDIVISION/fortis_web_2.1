@@ -12,6 +12,7 @@ import FeaturesSection from "../components/Sections/FeaturesSection";
 import IdeasSection from "../components/Sections/IdeasSection";
 import ShapeSection from "../components/Sections/ShapeSection";
 import RoadmapSection from "../components/Sections/RoadmapSection";
+import Footer from "../components/Sections/Footer";
 
 const Section = styled.div`
     width: 100vw;
@@ -95,11 +96,12 @@ const Title = styled.div`
     height: 30%;
     display: flex;
     align-items: center;
+    border: 1px solid white;
     h1{
         color: white;
         font-size: 68px;
         font-weight: 400;
-        transform: translate(40%, 30%);
+        transform: translate(40%, 0%);
     }
 `;
 
@@ -112,7 +114,7 @@ const Description = styled.div`
         color: white;
         font-size: 32px;
         font-weight: 400; 
-        transform: translate(34%, 10%);
+        transform: translate(34%, -10%);
         line-height: 130%;
     }
 `;
@@ -146,12 +148,13 @@ const FifthEmpty = styled.div`
 
 const Roadmap = () => {
     return(
+        <>
         <Section>
             <RoadmapNavBar />
             <Wrapper>
             <ColumnLeft>
                 <Title><h1>Fortis Roadmap</h1></Title>
-                <Description><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporius dab incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</h1></Description>
+                <Description><h1>Fortis is on a mission to solve the most pressing issues facing cryptocurrency today. Read how our experienced team of developers and visionaries have a plan to make it happen.</h1></Description>
             </ColumnLeft>
             <ColumnRight>
                 <ButtonWrapper>
@@ -178,6 +181,8 @@ const Roadmap = () => {
             <FifthEmpty />
             <RoadmapSection />
         </Section>
+        <Footer />
+        </>
     )
 }
 

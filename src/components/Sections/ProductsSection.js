@@ -180,18 +180,18 @@ const ProductsSection = () => {
             <BottomGrid>
                 <Box style={{backgroundImage: `url(${Box1})`}}>
                     <Empty><img src={IconApp} alt="icon1" /></Empty>
-                    <GridTitle><h1>Fortis Roadmap</h1></GridTitle>
-                    <GridDesc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h1></GridDesc>
+                    <GridTitle><h1>Fortis App</h1></GridTitle>
+                    <GridDesc><h1>A secure and easy to use platform that lets you access the FORT ecosystem from your smartphone.</h1></GridDesc>
                 </Box>
                 <Box style={{backgroundImage: `url(${Box2})`}}>
                     <Empty><img src={IconRoad} alt="icon2" /></Empty>
-                    <GridTitle><h1>Fortis Roadmap</h1></GridTitle>
-                    <GridDesc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h1></GridDesc>
+                    <GridTitle><h1>Fortis Gateway</h1></GridTitle>
+                    <GridDesc><h1>The infrastructure that will allow shops and shoppers to pay with crypto.</h1></GridDesc>
                 </Box>
                 <Box style={{backgroundImage: `url(${Box3})`}}>
                     <Empty><img src={IconLabs} alt="icon3" /></Empty>
                     <GridTitle><h1>Fortis Labs</h1></GridTitle>
-                    <GridDesc><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h1></GridDesc>
+                    <GridDesc><h1>Fortis Labs is our project incubator that will let us revolutionise the future of finance.</h1></GridDesc>
                 </Box>
             </BottomGrid>
         </Section>

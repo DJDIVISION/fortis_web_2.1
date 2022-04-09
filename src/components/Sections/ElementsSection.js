@@ -36,6 +36,7 @@ const Grid = styled.div`
     height: 75%;
     width: 100%;
     justify-content: space-between;
+    transform: translate(0, 10%);
 `;
 
 const Box = styled.div`
@@ -113,31 +114,31 @@ const ElementsSection = () => {
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Fiat On-Ramp</h1></BoxTitle>
-                    <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
+                    <BoxDescription><h1>Convert your fiat currency to cryptocurrency with the tap of a button with the Fiat On-Ramp. Use your debit and credit cards, as well as local bank transfers and mobile payment systems to modernise your money.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Fort'nomics</h1></BoxTitle>
-                    <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
+                    <BoxDescription><h1>The Fortis App is powered by Fort’nomics, our unique algorithm that is fine-tuned to reward FORT holders. By redistributing fees to active holders, we create a stronger Fortis community and incentivize crypto adoption.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Debit Cards</h1></BoxTitle>
-                    <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
+                    <BoxDescription><h1>Once you’ve converted your Fiat to crypto, use the Fortis Card to spend it wherever you need. Feel the power of instant transactions without paying annual fees. And you’ll even get rewarded for being loyal to your Fortis Card.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Lending Platform</h1></BoxTitle>
-                    <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
+                    <BoxDescription><h1>The world’s bankless population can be better served by cryptocurrency-based lending. Fortis Lend will give the world a secure platform to pledge their crypto as collateral when you need it most.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>App Explorer</h1></BoxTitle>
-                    <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
+                    <BoxDescription><h1>Use these financial tools and decentralised applications through one secure platform - the Fortis Explorer. We’re working to ensure that nobody can control or restrict access to your finances with Fortis.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
             </Grid>

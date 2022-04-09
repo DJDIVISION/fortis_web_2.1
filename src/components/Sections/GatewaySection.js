@@ -35,7 +35,7 @@ const Text = styled.div`
         color: white;
         font-weight: 400;
         font-size: 64px;
-        line-height: 60px;
+        line-height: 80px;
 
     }
 `;
@@ -50,6 +50,7 @@ const Description = styled.div`
         font-weight: 400;
         color: white;
         width: 70%;
+        transform: translate(0, 10%);
     }
 `;
 
@@ -59,7 +60,7 @@ const GatewaySection = () => {
             <Column>
                 <Title><img src={Gateway} alt="" /></Title>
                 <Text><h1>Accept crypto withnin minutes</h1></Text>
-                <Description><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></Description>
+                <Description><h1>Businesses are interested in accepting crypto as payment, and shoppers want to pay with their crypto. The Fortis Gateway is the infrastructure that will make this future possible for merchants and consumers around the world.</h1></Description>
             </Column>
             <Column></Column>
         </Section>

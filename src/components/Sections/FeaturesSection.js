@@ -25,9 +25,9 @@ const Title = styled.div`
         font-size: 38px;
         color: white;
         font-weight: 400;
-        width: 35%;
+        width: 80%;
         text-align: center;
-        transform: translate(0, -25%);
+        transform: translate(0, -50%);
     }
 `;
 
@@ -36,6 +36,7 @@ const Grid = styled.div`
     height: 75%;
     width: 100%;
     justify-content: space-between;
+    transform: translate(0, 10%);
 `;
 
 const Box = styled.div`
@@ -107,30 +108,30 @@ const BoxDescription = styled.div`
 const FeaturesSection = () => {
     return(
         <Section>
-            <Title><h1>Five key elements make up the Fortis App</h1></Title>
+            <Title><h1>Fortis gateway features</h1></Title>
             <Grid>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Customised Checkouts</h1></BoxTitle>
-                    <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
+                    <BoxDescription><h1>Running an online boutique? Check. Managing a local restaurant? Fortis Gateway has you covered. Design your cryptocurrency checkout to fit your needs and your brand - and bring your customers closer to the future of finance.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Invoices</h1></BoxTitle>
-                    <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
+                    <BoxDescription><h1>Use Fortis Gateway to take care of all the receipts and paperwork to invoice your customers. All you have to worry about is serving your customers - we’ll handle the rest.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Live API's</h1></BoxTitle>
-                    <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
+                    <BoxDescription><h1>Create custom workflows and experiences with our live APIs. These APIs will let you exchange on the spot to stablecoins, Bitcoin, and many other cryptocurrencies when you receive payment.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
                 <Box>
                     <BoxIcon><img src={Icon1} alt="icon1" /></BoxIcon>
                     <BoxTitle><h1>Business Reports</h1></BoxTitle>
-                    <BoxDescription><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></BoxDescription>
+                    <BoxDescription><h1>Built-in reporting makes Fortis Gateway a breeze to use. Put your data back in your own hands and learn how your customers have used cryptocurrency at your store.</h1></BoxDescription>
                     <BoxDemo><img src={Demo} alt="demo" /></BoxDemo>
                 </Box>
             </Grid>

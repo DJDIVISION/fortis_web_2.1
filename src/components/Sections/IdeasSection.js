@@ -76,7 +76,7 @@ const IdeasSection = () => {
                 <Column>
                     <Title><img src={Labs} alt="title" /></Title>
                     <Text><h1>A new home for great ideas</h1></Text>
-                    <Description><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></Description>
+                    <Description><h1>Crypto moves fast. But our community innovates faster, together. Fortis Labs is our incubator - and it will let us revolutionise the future of finance. Built-in governance allows the most groundbreaking technologies to rise to the top and receive funding.</h1></Description>
                 </Column>
             </Wrapper>
         </Section>
