@@ -9,7 +9,7 @@ import FounderImg from "../../images/about/founderImg.png";
 
 const Section = styled.div`
     width: 100%;
-    height: 120vh;
+    height: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,26 +17,27 @@ const Section = styled.div`
 
 const TeamTitle = styled.div`
     width: 60%;
-    height: 15vh;
+    height: 200px;
     display: flex;
     align-items: center;
     img{
-        transform: scale(1.2) translate(40%, 0%);
+        transform: scale(1.2) translate(25%, 250%);
     }
 `;
 
 const Text = styled.div`
-    width: 60%;
+    width: 50%;
     height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
     h1{
         color: white;
-        font-size: 32px;
-        line-height: 120%;
+        font-size: 36px;
+        line-height: 45px;
         font-style: normal;
         font-weight: 400;
+        transform: translate(-7%, 0%);
     }
 `;
 
@@ -72,6 +73,7 @@ const GridText = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translate(0, -50%);
     img{
         transform: scale(1.2);
     }
@@ -96,7 +98,7 @@ const TeamSection = () =>  {
     return(
         <Section>
             <TeamTitle><img src={MeetTeam} alt="title" /></TeamTitle>
-            <Text><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></Text>
+            <Text><h1>We bring the best cryptocurrency developers, entrepreneurs, marketers, and blockchain experts together to make Fortis shine. Our team works around the globe to make Fortis better each and every day.</h1></Text>
             <Grid>
                 <Column>
                     <Image><ImageHolder style={{backgroundImage: `url(${FounderImg})`}}></ImageHolder></Image>

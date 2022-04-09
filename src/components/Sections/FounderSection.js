@@ -6,7 +6,7 @@ import FounderImg from "../../images/about/founderImg.png";
 
 const Section = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 740px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,22 +14,24 @@ const Section = styled.div`
 
 const ColumnLeft = styled.div`
     width: 40%;
-    height: 90%;
+    height: 740px;
     float: left;
     
 `;
 
 const ColumnRight = styled.div`
     width: 40%;
-    height: 100%;
-    float: left;    
+    height: 740px;
+    float: left;
 `;
 
 const ColumnTitle = styled.div`
     width: 100%;
-    height: 10%;
+    height: 75px;
+    display: flex;
+    align-items: center;
     img{
-        transform: scale(1.2) translate(25%, 60%);
+        transform: scale(1.2) translate(25%, 0);
 
     }
 `;
@@ -43,8 +45,9 @@ const Title = styled.div`
     h1{
         font-size: 58px;
         color: white;
-        line-height: 60px;
-        transform: translate(2.5%, 0%);
+        line-height: 70px;
+        width: 70%;
+        margin-left: 20px;
     }
 `;
 
@@ -53,19 +56,21 @@ const Description = styled.div`
     height: 25%;
     display: flex;
     align-items: center;
-    transform: translate(5%, 0);
     h1{
         font-size: 18px;
         color: white;
         font-style: normal;
         font-weight: 400;
+        margin-left: 20px;
     }
 `;
 
 const ButtonWrapper = styled.div`
     width: 100%;
     height: 15%;
-    transform: translate(2.5%, 25%);
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
 `;
 
 const TopButton = styled(motion.div)`
@@ -87,12 +92,12 @@ const TopButton = styled(motion.div)`
 `;
 
 const ImageHolder = styled.div`
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background: black;
     border-radius: 50%;
-    margin-top: 140px;
-    margin-left: 10px;
+    margin-top: 190px;
+    margin-left: 50px;
     background-image: url(${FounderImg});
     background-size: cover;
 `;
@@ -103,9 +108,9 @@ const FounderSection = () => {
         <Section>
             <ColumnLeft>
                 <ColumnTitle><img src={Founder} alt="title" /></ColumnTitle>
-                <Title><h1>About Jesus Sobredo</h1></Title>
-                <Description><h1>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h1></Description>
-                <Description><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></Description>
+                <Title><h1>About Jesus Sobredo - CEO</h1></Title>
+                <Description><h1>Jesus has been the driving force behind Fortis ever since he encountered major issues in the crypto space and knew he could solve them. Jesus is passionate about creating a global currency that serves the people of the world, no matter what arbitrary financial limitations surround them.</h1></Description>
+                <Description><h1>Known for his compelling entrepreneurial spirit, Jesus is an active community member. His background in traditional finances and a passion for innovative blockchain solutions, makes him the perfect individual to lead the ambitious mission of Fortis. Look out for his updates in the Fortis Telegram channel!</h1></Description>
                 <ButtonWrapper>
                     <TopButton whileHover={{scale: 1.05}} whileTap={{scale: 0.95}}>JOIN THE MOVEMENT</TopButton>
                 </ButtonWrapper>

@@ -5,13 +5,12 @@ import {motion} from "framer-motion";
 import FortisLogo from "../../svg/logo.svg";
 
 const Nav = styled.nav`
-    width:1235px;
+    width: 1200px;
     height: 56px;
     display: inline-flex;
     align-items: center;
     position: absolute;
     top: 40px;
-    left: 5vw;
 `;
 
 const NavLogo = styled.div`
@@ -21,6 +20,7 @@ const NavLogo = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding-left: 50px;
 `;
 
 const Logo = styled.div`

@@ -5,7 +5,7 @@ import LearnMore from "../../svg/learnMore.svg";
 
 const Section = styled.div`
     width: 100%;
-    height: 60vh;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,10 +30,11 @@ const Description = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     h1{
         font-size: 20px;
-        color: #666666;
-        font-weight: 400;
+        color: white;
+        font-weight: 200;
     }
 `;
 
@@ -69,7 +70,7 @@ const JoinTeamSection = () => {
     return(
         <Section>
             <Title><h1>Join the Team</h1></Title>
-            <Description><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></Description>
+            <Description><h1>As Fortis grows, we commit to bringing talented new members on board to carry out our vision. Can you help us build the future of finance?</h1></Description>
             <Row>
                 <InnerRow><h1>Web Developer <span> - Full Time</span></h1><img src={LearnMore} alt="learn" /></InnerRow>
             </Row>
